@@ -1,0 +1,29 @@
+.test-div {
+background: burlywood;
+padding: 20px;
+margin: 20px;
+} 
+
+.test-div h2 {
+color:brown; 
+}
+
+.test-div .special {
+    background: rgb(168, 226, 255); 
+}
+
+P {background: rgba(158, 0, 0, 0.9)}
+
+.special {
+    background:rgb(252, 221, 226)
+}
+
+.test-div:hover {
+background: rgb(252, 221, 226); 
+}
+
+h1, h2, h3, h4 {
+text-decoration:underline
+}
+
+H2 {color: plum; }
