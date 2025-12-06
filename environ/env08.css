@@ -1,0 +1,51 @@
+BODY {background-image: url("399853-thumbnail.webp.jpeg"); 
+    background-position: center center; 
+    background-size: cover; background-attachment: fixed;
+}
+ 
+H1, H2, H3, H5 {color: #9838a1; font-family: 'Trebuchet MS';}
+#pusheen {width: 500px;}
+.p-div {background: rgb(255, 222, 228);
+padding: px;
+margin: 20px;
+} 
+
+.my-image { 
+  background-image: url(pusheen.jpg.gif);
+  filter: grayscale(100%); /* Apply grayscale by default */
+  transition: filter 0.3s ease; /* Smooth transition */
+}
+
+.my-image:hover {
+  background-image: url(pusheen.jpg.gif);
+  filter: grayscale(0%); /* Remove grayscale on hover */
+}
+
+#color {
+  width: 30px;
+  height: 30px;
+  background: rgb(248, 198, 207);
+  border-radius: 1px;
+  margin-bottom: 1px;
+}
+
+#movableElement {
+    background-image: color;
+    width: 50px;
+    height: 50px;
+    position: absolute; 
+            }
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+}
+
+#color {
+  pointer-events: none;
+}
+
+
