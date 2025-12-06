@@ -1,0 +1,34 @@
+BODY {background-image: url("399853-thumbnail.webp.jpeg"); 
+    background-position: center center; 
+    background-size: cover; background-attachment: fixed;
+}
+
+.my-element {
+  background-image: url('morning.jpeg');
+  background-position: center center;
+  background-size: cover; background-attachment: fixed;
+}
+ 
+H1, H2, H3, H5 {color: #9838a1; font-family: 'Trebuchet MS';}
+#pusheen {width: 500px;}
+.p-div {background: rgb(255, 222, 228);
+padding: px;
+margin: 20px;
+} 
+
+#pusheen-sleep {width: 200px;}
+.move-right {
+  position: relative;
+  left: px10;
+}
+.my-image { 
+  background-image: url(pusheen.jpg.gif);
+  filter: grayscale(100%); /* Apply grayscale by default */
+  transition: filter 0.3s ease; /* Smooth transition */
+}
+
+.my-image:hover {
+  background-image: url(pusheen.jpg.gif);
+  filter: grayscale(0%); /* Remove grayscale on hover */
+}
+
