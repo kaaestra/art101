@@ -48,4 +48,9 @@ margin: 20px;
   pointer-events: none;
 }
 
+#clouds {
+    width: 300px;
+    top: 9px;
+    left: 35px;
+}
 
